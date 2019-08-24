@@ -26,6 +26,6 @@ install:
 # Generate Makefiles and make
 script:
  - pwd
- - /opt/microchip/mplabx/v4.05/mplab_ide/bin/prjMakefilesGenerator.sh ./appX
+ - /opt/microchip/mplabx/v4.05/mplab_ide/bin/prjMakefilesGenerator.sh ./app.X
  - make
  
