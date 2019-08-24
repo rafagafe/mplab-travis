@@ -1,6 +1,7 @@
 
-#include "xc.h"
+#include "sayhello.h"
 
 int main(void) {
+    sayhello();
     return 0;
 }

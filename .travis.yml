@@ -25,7 +25,10 @@ install:
 
 # Generate Makefiles and make
 script:
- - cd app.X
+ - cd mylib.X
+ - pwd
+ - /opt/microchip/mplabx/v4.05/mplab_ide/bin/prjMakefilesGenerator.sh .
+ - cd ../app.X
  - pwd
  - /opt/microchip/mplabx/v4.05/mplab_ide/bin/prjMakefilesGenerator.sh .
  - make CONF=release
