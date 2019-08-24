@@ -28,5 +28,6 @@ script:
  - cd app.X
  - pwd
  - /opt/microchip/mplabx/v4.05/mplab_ide/bin/prjMakefilesGenerator.sh .
- - make
+ - make CONF=release
+ - make CONF=debug
  
